@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/i18n">
+        <file>skdeck_en_US.qm</file>
+        <file>skdeck_fr_FR.qm</file>
+    </qresource>
+</RCC>

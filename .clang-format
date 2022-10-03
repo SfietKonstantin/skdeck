@@ -1,0 +1,6 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+AccessModifierOffset: -4
+ColumnLimit: 120
+PackConstructorInitializers: Never
+BreakConstructorInitializers: BeforeComma
