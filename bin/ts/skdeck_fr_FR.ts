@@ -2,36 +2,49 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="fr_FR">
 <context>
-    <name>MainWindow</name>
+    <name>Ck3Page</name>
     <message>
-        <location filename="../mainwindow.ui" line="14"/>
-        <source>SKDeck</source>
-        <translation>SKDeck</translation>
-    </message>
-    <message>
-        <location filename="../mainwindow.ui" line="25"/>
+        <location filename="../qml/Ck3Page.qml" line="12"/>
         <source>Crusader Kings III</source>
         <translation>Crusader Kings III</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="30"/>
-        <source>Other</source>
-        <translation>Autre</translation>
+        <location filename="../qml/Ck3Page.qml" line="17"/>
+        <source>Back</source>
+        <translation>Retour</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="48"/>
-        <source>&amp;File</source>
-        <translation>&amp;Fichier</translation>
+        <location filename="../qml/Ck3Page.qml" line="23"/>
+        <source>Reload</source>
+        <translation>Recharger</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="57"/>
-        <source>Toolbar</source>
-        <translation>Barre d&apos;outils</translation>
+        <location filename="../qml/Ck3Page.qml" line="102"/>
+        <source>Backup %1</source>
+        <translation>Sauvegarder %1</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="76"/>
-        <source>&amp;Quit</source>
-        <translation>&amp;Quitter</translation>
+        <location filename="../qml/Ck3Page.qml" line="106"/>
+        <source>Restore %1</source>
+        <translation>Restaurer %1</translation>
+    </message>
+</context>
+<context>
+    <name>MenuPage</name>
+    <message>
+        <location filename="../qml/MenuPage.qml" line="9"/>
+        <source>SKDeck</source>
+        <translation>SKDeck</translation>
+    </message>
+    <message>
+        <location filename="../qml/MenuPage.qml" line="48"/>
+        <source>Crusader Kings III</source>
+        <translation>Crusader Kings III</translation>
+    </message>
+    <message>
+        <location filename="../qml/MenuPage.qml" line="54"/>
+        <source>Quit</source>
+        <translation>Quitter</translation>
     </message>
 </context>
 </TS>

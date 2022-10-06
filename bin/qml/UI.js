@@ -1,0 +1,7 @@
+.pragma library
+
+const TEXT_SIZE_LARGE = 15
+const TEXT_SIZE_NORMAL = 13
+const ITEM_MARGIN = 12
+const TEXT_MARGIN = 6
+const HIGHLIGHT_MOVE_DURATION = 200

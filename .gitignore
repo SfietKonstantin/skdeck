@@ -1,4 +1,7 @@
 CMakeLists.txt.user
+.idea
 
-# Build folder
+# Build folders
 build
+build-dir
+.flatpak-builder

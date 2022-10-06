@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/Ck3Page.qml</file>
+        <file>qml/UI.js</file>
+        <file>qml/main.qml</file>
+        <file>qml/CK3SaveItem.qml</file>
+        <file>qml/Page.qml</file>
+        <file>qml/MenuPage.qml</file>
+        <file>qml/PageHeader.qml</file>
+    </qresource>
+</RCC>

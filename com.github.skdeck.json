@@ -1,0 +1,38 @@
+{
+  "app-id": "com.github.skdeck.SKDeck",
+  "runtime": "org.kde.Platform",
+  "runtime-version": "5.15-22.08",
+  "sdk": "org.kde.Sdk",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable"
+  ],
+  "command": "skdeck",
+  "finish-args": [
+    "--share=ipc",
+    "--socket=x11",
+    "--socket=wayland",
+    "--filesystem=host",
+    "--filesystem=xdg-data/Paradox Interactive",
+    "--device=dri"
+  ],
+  "build-options": {
+    "append-path" : "/usr/lib/sdk/rust-stable/bin",
+    "env" : {
+      "CARGO_HOME" : "/run/build/skdeck/cargo"
+
+    }
+  },
+  "modules": [
+    {
+      "name": "skdeck",
+      "buildsystem": "cmake",
+      "sources": [
+        {
+          "type": "dir",
+          "path": "."
+        },
+        "cargo-sources.json"
+      ]
+    }
+  ]
+}

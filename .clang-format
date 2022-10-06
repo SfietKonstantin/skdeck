@@ -4,3 +4,5 @@ AccessModifierOffset: -4
 ColumnLimit: 120
 PackConstructorInitializers: Never
 BreakConstructorInitializers: BeforeComma
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
