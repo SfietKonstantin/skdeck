@@ -18,3 +18,10 @@ jobs:
           manifest-path: com.github.skdeck.json
           bundle: skdeck.flatpak
           cache-key: flatpak-builder-${{ github.sha }}
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          title: "Development Build"
+          automatic_release_tag: "latest"
+          prerelease: true
+          files: skdeck.flatpak
