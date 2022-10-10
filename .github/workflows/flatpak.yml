@@ -1,0 +1,20 @@
+name: Flatpak
+on: 
+  push:
+    branches: [main]
+jobs:
+  flatpak:
+    name: SKDeck flatpak
+    runs-on: ubuntu-latest
+    container:
+      image: bilelmoussaoui/flatpak-github-actions:gnome-40
+      options: --privileged
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - uses: flatpak/flatpak-github-actions/flatpak-builder@v4
+        with:
+          manifest-path: com.github.skdeck.json
+          bundle: skdeck.flatpak
+          cache-key: flatpak-builder-${{ github.sha }}
