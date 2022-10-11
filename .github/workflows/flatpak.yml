@@ -15,7 +15,7 @@ jobs:
           submodules: true
       - uses: flatpak/flatpak-github-actions/flatpak-builder@v4
         with:
-          manifest-path: com.github.skdeck.json
+          manifest-path: com.github.sfietkonstantin.SKDeck.json
           bundle: skdeck.flatpak
           cache-key: flatpak-builder-${{ github.sha }}
       - uses: "marvinpinto/action-automatic-releases@latest"

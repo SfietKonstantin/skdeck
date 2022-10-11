@@ -1,5 +1,5 @@
 {
-  "app-id": "com.github.skdeck.SKDeck",
+  "app-id": "com.github.sfietkonstantin.SKDeck",
   "runtime": "org.kde.Platform",
   "runtime-version": "5.15-22.08",
   "sdk": "org.kde.Sdk",
@@ -13,7 +13,7 @@
     "--socket=wayland",
     "--filesystem=host",
     "--filesystem=xdg-data/Paradox Interactive",
-    "--device=dri"
+    "--device=all"
   ],
   "build-options": {
     "append-path" : "/usr/lib/sdk/rust-stable/bin",
